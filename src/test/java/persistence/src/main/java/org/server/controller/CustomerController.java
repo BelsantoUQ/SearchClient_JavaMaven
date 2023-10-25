@@ -21,7 +21,6 @@ public class CustomerController {
         Customer customer = mockCustomer();
         customerMap.put(customer.getDocumentNumber(), customer);
     }
-
     @GetMapping("/customer-info")
     public ResponseEntity<CustomerDto> getCustomerInfo(@RequestParam String type, @RequestParam String documentNumber) {
 

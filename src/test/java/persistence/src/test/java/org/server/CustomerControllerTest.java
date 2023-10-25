@@ -3,8 +3,6 @@ package org.server;
 import org.junit.jupiter.api.Test;
 import org.server.controller.CustomerController;
 import org.server.dto.CustomerDto;
-import org.server.model.Customer;
-import org.server.model.DocumentType;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 

@@ -50,7 +50,9 @@ public class CustomerController {
         // Datos quemados para cédula de ciudadanía 23445322
         Customer customer = new Customer();
         customer.setFirstName("John");
+        customer.setSecondName("Xavier");
         customer.setLastName("Doe");
+        customer.setSecondLastName("Joe");
         customer.setPhoneNumber("1234567890");
         customer.setAddress("123 Main St");
         customer.setCity("Anytown");
@@ -63,7 +65,9 @@ public class CustomerController {
     private CustomerDto convertToDTO(Customer customer) {
         CustomerDto customerDTO = new CustomerDto();
         customerDTO.setFirstName(customer.getFirstName());
+        customerDTO.setSecondName(customer.getSecondName());
         customerDTO.setLastName(customer.getLastName());
+        customerDTO.setSecondLastName(customer.getSecondLastName());
         customerDTO.setPhoneNumber(customer.getPhoneNumber());
         customerDTO.setAddress(customer.getAddress());
         customerDTO.setCity(customer.getCity());

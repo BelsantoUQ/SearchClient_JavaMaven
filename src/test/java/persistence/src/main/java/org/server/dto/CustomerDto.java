@@ -7,7 +7,9 @@ import lombok.Setter;
 @Setter
 public class CustomerDto {
     private String firstName;
+    private String secondName;
     private String lastName;
+    private String secondLastName;
     private String phoneNumber;
     private String address;
     private String city;
